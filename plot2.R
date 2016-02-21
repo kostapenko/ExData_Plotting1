@@ -20,7 +20,7 @@ data$weekday <- weekdays(date)
 dt <- data[data$Date == '2007-02-01' | data$Date == '2007-02-02', ]
 
 # Plot 2
-png(filename = "plot_2.png")
+png(filename = "plot2.png")
 plot(dt$datetime, 
      as.numeric(as.character(dt$Global_active_power)),
      type = 'l', 
